@@ -1,0 +1,10 @@
+# DiddyMC Configuration File
+
+# The prefix sent in chat when DiddyMC commands are run
+prefix: '&0[&4&kh&6Diddy-Bot&4&kh&0] &r'
+
+# If true, DiddyMC will not attempt to get pickup lines from the Diddy Bot API or GitHub, and will instead use pickuplines.yml (or a hardcoded value if it can't be loaded)
+always-use-offline-pickuplines: false
+
+# Diddy-Bot API base url
+diddyapi: 'http://35.208.224.85'

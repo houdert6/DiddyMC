@@ -1,0 +1,39 @@
+name: DiddyMC
+version: '1.0'
+main: me.houdert6.spigot.DiddyMC
+api-version: '1.19'
+description: 'Brainrot Minecraft plugin.'
+author: houdert6
+contributors: [Unprankable]
+website: 'https://discord.gg/u6AVRt7Bgm'
+softdepend: ['DiscordSRV']
+permissions:
+  diddymc.rizzme:
+    description: 'Allows people to use /rizzme'
+    default: true
+  diddymc.oil:
+    description: 'Allows people to use /oil'
+    default: true
+  diddymc.diddle:
+    description: 'Allows people to use /diddle'
+    default: true
+  diddymc.getaura:
+    description: 'Allows people to use /getaura'
+    default: true
+commands:
+  rizzme:
+    description: 'Receive a random pickup line!'
+    permission: diddymc.rizzme
+    usage: 'Usage: /rizzme'
+  oil:
+    description: 'oil up your friends'
+    permission: diddymc.oil
+    usage: 'Usage: /oil <entity>'
+  diddle:
+    description: 'Diddle your friends'
+    permission: diddymc.diddle
+    usage: 'Usage: /diddle <entity>'
+  getaura:
+    description: 'display a users aura'
+    permission: diddymc.getaura
+    usage: 'Usage: /getaura <member>'
