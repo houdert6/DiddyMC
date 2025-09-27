@@ -1,6 +1,6 @@
 # DiddyMC
 
-The official Minecraft plugin for [Diddy Bot](https://canary.discord.com/discovery/applications/1305713838775210015).
+The official Minecraft plugin for [Diddy Bot](https://discord.com/discovery/applications/1305713838775210015).
 
 ___
 
