@@ -17,7 +17,7 @@ ___
 
 ### Entity Selectors
 `/oil` and `/diddle` allow players to target *any* entity, using vanilla minecraft selectors!
-Any entity can use all the plugin's commands through `execute as` too.
+Any entity can use all the plugin's commands through `execute as` too (/execute may only work in this way on newer server softwares).
 
 For example: `/execute as @n[type=cow] run oil @n[type=pig]` makes the nearest cow oil up the nearest pig
 
